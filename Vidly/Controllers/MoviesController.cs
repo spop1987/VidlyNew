@@ -44,5 +44,18 @@ namespace Vidly.Controllers
 
             return View(viewModel);
         }
+
+        public ActionResult Details(int id)
+        {
+            var movies = GetMovies();
+
+            var movie = movies.SingleOrDefault(m => m.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
+            return View(movie);
+
+        }
     }
 }
