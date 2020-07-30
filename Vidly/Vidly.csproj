@@ -223,9 +223,22 @@
     <Compile Include="Migrations\202007301640019_SetBirthdateToCustomer.Designer.cs">
       <DependentUpon>202007301640019_SetBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007301728179_AddMovies.cs" />
+    <Compile Include="Migrations\202007301728179_AddMovies.Designer.cs">
+      <DependentUpon>202007301728179_AddMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007301731217_SetNameOfGenresInGenreTable.cs" />
+    <Compile Include="Migrations\202007301731217_SetNameOfGenresInGenreTable.Designer.cs">
+      <DependentUpon>202007301731217_SetNameOfGenresInGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007301818044_ApplyAnnotationsToMoviesTable.cs" />
+    <Compile Include="Migrations\202007301818044_ApplyAnnotationsToMoviesTable.Designer.cs">
+      <DependentUpon>202007301818044_ApplyAnnotationsToMoviesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -349,6 +362,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007301640019_SetBirthdateToCustomer.resx">
       <DependentUpon>202007301640019_SetBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007301728179_AddMovies.resx">
+      <DependentUpon>202007301728179_AddMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007301731217_SetNameOfGenresInGenreTable.resx">
+      <DependentUpon>202007301731217_SetNameOfGenresInGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007301818044_ApplyAnnotationsToMoviesTable.resx">
+      <DependentUpon>202007301818044_ApplyAnnotationsToMoviesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
