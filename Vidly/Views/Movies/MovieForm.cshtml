@@ -1,6 +1,6 @@
 ﻿@model Vidly.ViewModels.MovieFormViewModel
 @{
-    ViewBag.Title = "MovieForm";
+    ViewBag.Title = "Model.Title";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -8,7 +8,7 @@
 
 @using (Html.BeginForm("Save", "Movies"))
 {
-    @Html.ValidationSummary(true, "Pleas fix the following errors.")
+    @Html.ValidationSummary(true, "Please fix the following errors.")
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
         @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
